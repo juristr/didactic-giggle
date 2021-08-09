@@ -18,9 +18,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           <h1>Welcome to next-app!</h1>
         </header>
 
-        <Imgs />
-
-        <ImgsReactLib />
+        <Imgs imageName="nx-logo-white" />
 
         <main>
           <Component {...pageProps} />
