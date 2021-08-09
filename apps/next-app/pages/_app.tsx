@@ -3,6 +3,7 @@ import Head from 'next/head';
 import abc from './nx-logo-white.svg';
 import './styles.css';
 import { Imgs } from '@myorg-next-imports/imgs';
+import { ImgsReactLib } from '@myorg-next-imports/imgs-react-lib';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,6 +19,8 @@ function CustomApp({ Component, pageProps }: AppProps) {
         </header>
 
         <Imgs />
+
+        <ImgsReactLib />
 
         <main>
           <Component {...pageProps} />

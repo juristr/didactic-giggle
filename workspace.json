@@ -22,6 +22,27 @@
         }
       }
     },
+    "imgs-react-lib": {
+      "root": "libs/imgs-react-lib",
+      "sourceRoot": "libs/imgs-react-lib/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/imgs-react-lib/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/imgs-react-lib"],
+          "options": {
+            "jestConfig": "libs/imgs-react-lib/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
     "next-app": {
       "root": "apps/next-app",
       "sourceRoot": "apps/next-app",

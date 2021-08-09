@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@myorg-next-imports/imgs": ["libs/imgs/src/index.ts"]
+      "@myorg-next-imports/imgs": ["libs/imgs/src/index.ts"],
+      "@myorg-next-imports/imgs-react-lib": ["libs/imgs-react-lib/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
