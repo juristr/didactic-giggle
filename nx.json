@@ -27,6 +27,9 @@
     ]
   },
   "projects": {
+    "imgs": {
+      "tags": []
+    },
     "next-app": {
       "tags": []
     },
