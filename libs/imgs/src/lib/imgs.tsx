@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import './imgs.module.css';
-import nxLogo from './nx-logo-white.svg';
 
-/* eslint-disable-next-line */
 export interface ImgsProps {
   imageName: string;
 }
@@ -20,10 +18,11 @@ export function Imgs(props: ImgsProps) {
     };
     fetchData();
   }, [props.imageName]);
+
   return (
     <div>
-      <h1>Welcome to Imgs!</h1>
-      <img src={icon} />
+      <h1>Lazy Image</h1>
+      <img src={icon} alt="" />
     </div>
   );
 }

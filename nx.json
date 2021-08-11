@@ -39,6 +39,13 @@
     "next-app-e2e": {
       "tags": [],
       "implicitDependencies": ["next-app"]
+    },
+    "reactapp": {
+      "tags": []
+    },
+    "reactapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reactapp"]
     }
   }
 }
